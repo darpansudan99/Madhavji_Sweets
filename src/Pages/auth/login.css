@@ -1,0 +1,97 @@
+#registerContainer {
+    color: var(--black);
+    margin: auto;
+    padding: 5rem 0;
+    width: 40%;
+    animation: rotate-diagonal-tl 1s ease;
+}
+
+#registerContainer h1 {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#registerForm {
+    background-color: var(--bColor);
+    border: 1px solid black;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#registerForm div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    margin: 2vh auto;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    width: 70%;
+}
+
+#registerForm h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#registerForm input {
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    outline-color: var(--black);
+    padding: .4rem .7rem;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+#registerForm button {
+    background-color: var(--black);
+    border: none;
+    border-radius: 1rem;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: .3rem 1rem;
+}
+
+#registerForm button:hover {
+    background-color: var(--main);
+}
+
+@keyframes rotate-diagonal-tl {
+    0% {
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #registerContainer {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    #registerContainer {
+        width: 90%;
+    }
+
+    #registerForm div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2rem 0;
+        width: 90%;
+    }
+
+}

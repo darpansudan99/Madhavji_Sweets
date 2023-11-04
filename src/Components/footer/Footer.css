@@ -1,0 +1,122 @@
+#footerContainer {
+    align-items: center;
+    background-color: rgb(31, 29, 29);
+    border-top: .1rem solid white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    padding: 2rem 0;
+    text-align: center; /* Center-align text */
+}
+
+#footerDetails {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+    width: 90%;
+    flex-wrap: wrap; /* Allow for responsive layout */
+}
+
+#footerDetails .contact {
+    border-right: .1rem solid;
+    flex: 100%; /* Full width on smaller screens */
+    padding-right: 0; /* Remove right padding */
+}
+
+#footerDetails .contact h1 {
+    font-weight: 600;
+    padding-bottom: 3vh;
+    font-size: 1.5rem; /* Adjust the font size */
+}
+
+#footerDetails .contact p {
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    padding: .5rem 0;
+    text-align: center; /* Center-align contact info */
+}
+
+#footerDetails .contact p i {
+    padding-right: .5rem;
+}
+
+#footerDetails .details {
+    flex: 100%; /* Full width on smaller screens */
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    line-height: 2rem;
+    text-align: center; /* Center-align the details */
+}
+
+#footerContainer #copyright {
+    border-top: .1rem solid white;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    text-align: center;
+    width: 100%; /* Full width */
+    margin: 0 auto;
+    margin-top: 2rem; /* Add some top margin */
+}
+
+#help {
+    border-radius: 10%;
+    color: var(--black);
+    cursor: pointer;
+    font-size: 3rem;
+    left: 2rem;
+    position: fixed;
+    top: 37rem;
+    z-index: 100;
+}
+
+#backToTop {
+    bottom: 5rem;
+    color: var(--black);
+    cursor: pointer;
+    font-size: 3rem;
+    position: fixed;
+    right: 5rem;
+    width: 15px;
+    z-index: 100;
+}
+
+@media screen and (max-width: 1450px) {
+    #footerDetails {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #footerDetails {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 80%;
+    }
+
+    #footerDetails .contact {
+        border-bottom: .1rem solid #fff;
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #footerDetails {
+        width: 100%;
+    }
+
+    #footerDetails .details {
+        display: none;
+    }
+
+    #footerDetails .contact {
+        border-bottom: none;
+        border-right: none;
+    }
+}

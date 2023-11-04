@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+	text-decoration: none !important;
+}
+
+:root {
+	--main: #e9890c;
+	--black: #000;
+	--white: #fff;
+	--bg: #ffffff;
+	--border: 0.1rem solid rgba(255, 255, 255, 0.3);
+	--invert: 0%;
+	--bColor: rgb(231, 231, 231);
+}
+
+.darkTheme {
+	--main: #e98d15;
+	--black: #fff;
+	--white: #000;
+	--bg: #000;
+	--border: 0.1rem solid rgba(121, 95, 38, 0.795);
+	--invert: 100%;
+	--bColor: rgb(15, 15, 15);
+}
+
+.wrongPrice {
+	color: #666;
+	text-decoration: line-through !important;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1600px;
+	width: 100%;
+}
+
+.bgImage {
+	background-image: url("./Assests/images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}

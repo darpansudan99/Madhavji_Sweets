@@ -1,0 +1,19 @@
+# Ignore Node.js modules
+node_modules/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore environment files
+.env
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore package lock file
+package-lock.json

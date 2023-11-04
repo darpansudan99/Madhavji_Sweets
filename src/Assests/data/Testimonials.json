@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Madhavji",
+    "src": "/testimonial-image/testimonial_1.jpg",
+    "heading": "Outstanding Experience",
+    "review": "Madhavji delivers a delightful collection of local flavors right to your doorstep. It's a taste of home for those who live far from their beloved places, or for anyone seeking an authentic culinary journey across India. The service is truly remarkable! Keep up the fantastic work.",
+    "location": "Haryana"
+  },
+  {
+    "id": 2,
+    "name": "Madhavji",
+    "src": "/testimonial-image/testimonial_2.jpg",
+    "heading": "Fantastic Service",
+    "review": "Madhavji offers a diverse range of local flavors, making it a true culinary adventure. Whether you're separated from your favorite hometown tastes or simply want to explore authentic Indian cuisine, Madhavji is the perfect choice. Their service is exceptional, and I can't recommend it enough!",
+    "location": "Jind"
+  },
+  {
+    "id": 3,
+    "name": "Madhavji",
+    "src": "/testimonial-image/testimonial_3.jpg",
+    "heading": "Incredible Variety",
+    "review": "Madhavji brings a wide variety of local flavors right to your doorstep. It's a treat for those who are distanced from their beloved hometowns and want to savor the best authentic Indian dishes. Their service is truly amazing! Keep up the good work.",
+    "location": "Delhi"
+  },
+  {
+    "id": 4,
+    "name": "Madhavji",
+    "src": "/testimonial-image/testimonial_4.jpg",
+    "heading": "Exceptional Quality",
+    "review": "Madhavji delivers top-notch local flavors directly to you. It's a taste of home for those who are far from their cherished places or those who wish to enjoy the finest authentic Indian cuisines. The service is outstanding! Keep up the great work.",
+    "location": "Jind"
+  },
+  {
+    "id": 5,
+    "name": "Madhavji",
+    "src": "/testimonial-image/testimonial_5.jpeg",
+    "heading": "Unforgettable Journey",
+    "review": "Madhavji provides an unforgettable culinary journey through a rich array of local flavors. It's a true delight for those who are away from their beloved hometown tastes or those who are looking to experience the best of authentic Indian dishes. The service is truly exceptional! Keep up the excellent work.",
+    "location": "Bahadurgarh"
+  }
+]

@@ -1,0 +1,115 @@
+#mainContainer {
+    padding-top: 12vh;
+}
+
+#carouselMain div img {
+    cursor: default;
+    height: 39rem !important;
+    position: relative;
+    width: 100% !important;
+}
+
+.slick-next:before,
+.slick-prev::before {
+    color: rgb(146, 145, 145);
+    cursor: pointer;
+    font-size: 50px;
+}
+
+.slick-next {
+    position: absolute;
+    right: 5rem;
+    z-index: 1;
+}
+
+.slick-prev {
+    left: 3rem;
+    position: absolute;
+    z-index: 1;
+}
+
+#testimonials {
+    background-color: var(--bg);
+    color: var(--black);
+    padding: 4rem 0;
+    width: 100%;
+}
+
+#testimonials>h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: .1rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+#testimonialSlider {
+    border: 1px solid;
+    height: 500px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.cardContainer {
+    align-items: center;
+    background-color: var(--bg);
+    border: 1px solid var(--black);
+    border-radius: .5rem;
+    box-shadow: 0px 0px 23px -5px rgba(49, 85, 191, 0.84);
+    color: var(--black);
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+    margin: 1rem auto;
+    padding: 1rem 2rem;
+    width: 90%;
+}
+
+.cardContainer h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.cardContainer p {
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    line-height: 1.5rem;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+.cardContainer img {
+    border-radius: .5rem;
+    min-height: 60px;
+    width: 100px;
+}
+
+.cardContainer h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+
+@media screen and (max-width:650px) {
+
+    .cardContainer {
+        height: 480px;
+    }
+
+    #testimonials>h1 {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .slick-next:before,
+    .slick-prev::before {
+        font-size: 30px;
+    }
+
+    #testimonialSlider {
+        border: none;
+    }
+}

@@ -1,0 +1,134 @@
+
+#productContainer {
+    margin: auto;
+    padding: 8rem 5rem 5rem 5rem;
+    width: 90%;
+}
+
+#productContainer>button {
+    background-color: var(--black);
+    border: none;
+    border-radius: 5px;
+    color: var(--bg);
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    padding: .3vh .8vh;
+}
+
+#detail {
+    display: flex;
+    gap: 1rem 2rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#detail img {
+    width: 300px;
+}
+
+#detailsProd {
+    display: flex;
+    flex: 1.5;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.addtoCart,
+.remove {
+    background-color: var(--black);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding: .5rem 1rem;
+    width: 70% !important;
+}
+
+.addtoCart:hover {
+    background-color: green;
+    transform: scaleX(1.05);
+}
+
+.remove:hover {
+    background-color: red;
+    transform: scaleX(1.05);
+}
+
+.link {
+    background-color: var(--main);
+    border-radius: 5px;
+    color: var(--bg);
+    display: block;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 70%;
+}
+
+.link:hover {
+    transform: scaleX(1.05);
+}
+
+#more {
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+}
+
+#instruction {
+    font-size: 16px;
+    line-height: 1.5rem;
+    text-align: justify;
+    width: 50%;
+}
+
+#more iframe {
+    flex: 1;
+}
+
+@media screen and (max-width:900px) {
+    #productContainer {
+        margin: auto;
+        padding: 8rem 1rem 5rem 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    #detail {
+        flex-direction: column;
+    }
+
+    #detail img {
+        margin: 0 2%;
+        width: 95%;
+    }
+
+    #detailsProd {
+        margin: auto;
+        min-height: 50vh;
+        text-align: center;
+        width: 95%;
+    }
+
+    .addtoCart,
+    .remove {
+        width: 95% !important;
+    }
+
+    .link {
+        width: 95%;
+    }
+
+    #more {
+        flex-direction: column-reverse;
+        margin: auto;
+    }
+
+    #instruction {
+        width: 95%;
+    }
+}
