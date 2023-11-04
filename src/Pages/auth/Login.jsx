@@ -39,8 +39,8 @@ const Login = () => {
 
       if (user) {
         setLogged(true);
-        setUserName(user.email);
-        localStorage.setItem("user", JSON.stringify(user.email));
+        setUserName(user.displayName);
+        localStorage.setItem("user", JSON.stringify(user.displayName));
 
         navigate("/menu");
       } else {

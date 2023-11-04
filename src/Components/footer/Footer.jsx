@@ -41,7 +41,7 @@ const Footer = () => {
                         <p>Live customer care service available Mon-Sat 10 am - 7 pm on non-public holidays</p>
                     </div>
                     <div className="details">
-                        Dilocious is your one-stop-shop if you seek and crave for local and regional flavours, unique products and authentically experience different cultures of entire India. At Dilocious, you can get limited available speciality food, a huge variety of tastes and offerings, regional variants of famous food and enjoy far distant seasonal delicacies right your doorstep.
+                        MadhavJi is your one-stop-shop if you seek and crave for local and regional flavours, unique products and authentically experience different cultures of entire India. At MadhavJi, you can get limited available speciality food, a huge variety of tastes and offerings, regional variants of famous food and enjoy far distant seasonal delicacies right your doorstep.
                     </div>
                 </div>
                 <div id='copyright'> &copy; Darpan Sudan </div>

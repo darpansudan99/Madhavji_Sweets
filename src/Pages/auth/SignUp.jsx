@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { auth, firebaseApp } from "../../firebase"; // Adjust the path to your firebase.js file
+import { auth } from "../../firebase"; // Adjust the path to your firebase.js file
 import { useNavigate } from "react-router-dom";
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import { createUserWithEmailAndPassword, updateProfile  } from "firebase/auth";
 
 const SignUp = () => {
   const navigate = useNavigate();
@@ -20,9 +20,13 @@ const SignUp = () => {
 
     try {
       // Create a new user account using Firebase Authentication
-      await createUserWithEmailAndPassword(auth, email, password);
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
 
       // Once the user is registered successfully, you can redirect to the desired page or perform other actions.
+      const user = userCredential.user;
+      await updateProfile(user, {
+      displayName: username, // Set the user's name
+      });
       // For example, you can save the user's username to Firebase's Firestore database here.
 
       console.log("Registration successful");
